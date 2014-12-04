@@ -1,0 +1,24 @@
+//Boje
+
+#d53d3d - Sunny
+#d56b3d - Partly cloudy
+#d5c13d - Rain and sun
+#6d9934 - Cloudy
+#948975 - Light rain
+#4f4d48 - Rain
+#3da5d5 - Snow
+#1f6671 - Thunderstorm
+#532d4a - Fog
+#414042 - Settings screen
+----------------------------
+//white text
+
+#ffffff
+----------------------------
+//gray text
+
+#414042
+----------------------------
+//font
+
+Roboto- thin svugdje
