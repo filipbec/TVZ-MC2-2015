@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF479F441A32F58E005FE618 /* WeatherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF479F431A32F58E005FE618 /* WeatherTableViewCell.m */; };
+		CF479F471A32F686005FE618 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF479F461A32F686005FE618 /* HomeViewController.m */; };
 		CFCD3FA81A29BCED0065CAC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCD3FA71A29BCED0065CAC5 /* main.m */; };
 		CFCD3FC21A29BCED0065CAC5 /* WeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCD3FC11A29BCED0065CAC5 /* WeatherAppTests.m */; };
 		CFCD3FD81A29BED30065CAC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCD3FCE1A29BED30065CAC5 /* AppDelegate.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF479F421A32F58E005FE618 /* WeatherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherTableViewCell.h; sourceTree = "<group>"; };
+		CF479F431A32F58E005FE618 /* WeatherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTableViewCell.m; sourceTree = "<group>"; };
+		CF479F451A32F686005FE618 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CF479F461A32F686005FE618 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CFCD3FA21A29BCED0065CAC5 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCD3FA61A29BCED0065CAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFCD3FA71A29BCED0065CAC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -144,6 +150,10 @@
 			children = (
 				CFCD3FDC1A29C48B0065CAC5 /* SettingsTableViewController.h */,
 				CFCD3FDD1A29C48B0065CAC5 /* SettingsTableViewController.m */,
+				CF479F421A32F58E005FE618 /* WeatherTableViewCell.h */,
+				CF479F431A32F58E005FE618 /* WeatherTableViewCell.m */,
+				CF479F451A32F686005FE618 /* HomeViewController.h */,
+				CF479F461A32F686005FE618 /* HomeViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -272,10 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF479F441A32F58E005FE618 /* WeatherTableViewCell.m in Sources */,
 				CFCD3FE11A29D2720065CAC5 /* SettingsManager.m in Sources */,
 				CFCD3FDE1A29C48B0065CAC5 /* SettingsTableViewController.m in Sources */,
 				CFCD3FD81A29BED30065CAC5 /* AppDelegate.m in Sources */,
 				CFCD3FA81A29BCED0065CAC5 /* main.m in Sources */,
+				CF479F471A32F686005FE618 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +478,7 @@
 				CFCD3FC71A29BCED0065CAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFCD3FC81A29BCED0065CAC5 /* Build configuration list for PBXNativeTarget "WeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +487,7 @@
 				CFCD3FCA1A29BCED0065CAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
