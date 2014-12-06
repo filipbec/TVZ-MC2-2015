@@ -15,4 +15,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *maxTempLabel;
 @property (weak, nonatomic) IBOutlet UILabel *weatherDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *weatherIconImageView;
+
 @end
